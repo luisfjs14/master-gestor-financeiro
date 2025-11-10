@@ -1,19 +1,52 @@
-# 💳 Sistema de Gestão Financeira Pessoal
+# 💰 Sistema Financeiro Pessoal
 
-Um sistema web completo para **controle financeiro pessoal**, desenvolvido em **PHP + MySQL**, com interface totalmente **responsiva e moderna**.
+![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-blue)
+![PHP](https://img.shields.io/badge/PHP-8.2-%23777BB4)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+Aplicação web completa para **controle financeiro pessoal MA$TER**, desenvolvida em **PHP + MySQL**, com interface moderna, responsiva e intuitiva.  
+Permite gerenciar contas, cartões de crédito, faturas mensais, lançamentos e acompanhar o saldo atualizado em tempo real.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
-✅ **Controle de contas a pagar e a receber**  
-✅ **Cadastro e exclusão de cartões de crédito**  
-✅ **Lançamento de compras parceladas no crédito**  
-✅ **Visualização automática de faturas mensais**  
-✅ **Dashboard com visão geral das finanças**  
-✅ **Controle de despesas por categoria e período**  
-✅ **Autenticação de usuários (Login e Registro)**  
-✅ **Design moderno e responsivo (HTML, CSS, JS)**
+### 🧍‍♂️ Autenticação
+- Registro e login de usuários com sessões seguras.
+- Cada usuário tem acesso apenas aos seus próprios dados.
+
+### 💳 Controle de Contas
+- Cadastro de múltiplas contas (ex: carteira, conta corrente, poupança).
+- Exibição de saldo em tempo real.
+- Atualização automática após lançamentos em débito, pix ou dinheiro.
+
+### 💸 Lançamentos Financeiros
+- Registro de **compras e receitas** com:
+  - Descrição, valor, data e forma de pagamento.
+  - Opção de parcelamento para compras no crédito.
+- Formas de pagamento disponíveis:
+  - 💵 Dinheiro  
+  - ⚡ Pix  
+  - 🏦 Débito  
+  - 💳 Crédito  
+
+### 🧾 Sistema de Crédito com Faturas
+- Cada cartão de crédito possui **fechamento** e **vencimento** configuráveis.
+- O sistema gera automaticamente as **faturas mensais** conforme as compras.
+- As parcelas são alocadas nas faturas dos meses correspondentes.
+- Visualização de todas as faturas com:
+  - Mês de referência  
+  - Valor total  
+  - Lista de lançamentos  
+- Exibe apenas as faturas **que contêm compras** (sem gerar faturas vazias).
+
+### 📊 Dashboard Inteligente
+- Resumo com:
+  - Saldo total consolidado  
+  - Gastos do mês  
+  - Projeção de faturas futuras  
+  - Últimos lançamentos registrados
 
 ---
 
