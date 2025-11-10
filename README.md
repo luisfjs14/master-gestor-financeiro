@@ -53,7 +53,7 @@ Permite gerenciar contas, cartões de crédito, faturas mensais, lançamentos e 
 ## 🧠 Estrutura do Projeto
 
 ```
-📁 projeto-financeiro/
+📁 MA$TER/
 ├── config/
 │   └── db.php                # Conexão com o banco de dados
 │
@@ -78,19 +78,6 @@ Permite gerenciar contas, cartões de crédito, faturas mensais, lançamentos e 
 
 ---
 
-## 🧩 Banco de Dados
-
-**Banco:** `u440974109_financeiro`
-
-Principais tabelas:
-
-- `users`: dados dos usuários cadastrados  
-- `cards`: cartões de crédito cadastrados  
-- `transactions`: lançamentos de compras e despesas  
-- `accounts`: contas de recebimento e pagamento
-
----
-
 ## ⚙️ Tecnologias Utilizadas
 
 | Categoria | Tecnologia |
@@ -103,33 +90,6 @@ Principais tabelas:
 
 ---
 
-## 💡 Como Executar o Projeto Localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/projeto-financeiro.git
-   cd projeto-financeiro
-   ```
-
-2. Configure o banco de dados no arquivo `config/db.php`:
-   ```php
-   $host = 'localhost';
-   $dbname = 'u440974109_financeiro';
-   $username = 'SEU_USUARIO';
-   $password = 'SUA_SENHA';
-   ```
-
-3. Importe o arquivo SQL (estrutura das tabelas).
-
-4. Inicie o servidor local (por exemplo, com o XAMPP ou Laragon):
-   ```bash
-   php -S localhost:8000
-   ```
-
-5. Acesse o sistema em:
-   [http://localhost:8000](http://localhost:8000)
-
----
 
 ## 🧾 Próximas Implementações
 
@@ -143,8 +103,8 @@ Principais tabelas:
 ## 👨‍💻 Autor
 
 **Luís Felipe de Jesus Soares**  
-💼 Coordenador Financeiro | Desenvolvedor Web  
-📧 [Contato via GitHub](https://github.com/seuusuario)
+💼 Desenvolvedor Web  
+📧 [Contato via GitHub](https://github.com/luisfjs14)
 
 ---
 
